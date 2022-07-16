@@ -8,6 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.util.CollectionUtils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,6 +19,7 @@ public class FlightDao {
     private static final Logger LOGGER = LogManager.getLogger(FlightDao.class);
     private final transient FileReaderDao fileReaderDao;
     private final ObjectMapper objectMapper;
+    private Map<String, FlightDetails> flightDetailsMap;
 
     @Autowired
     public FlightDao(
@@ -29,7 +31,7 @@ public class FlightDao {
 
     public Map<String, FlightDetails> getFlightDetailsMappedToFlightNumber() {
         final JsonNode flightDetailsJsonNode = fileReaderDao.getFlightDetails();
-        final Map<String, FlightDetails> flightDetailsMap = new HashMap<>();
+        flightDetailsMap = new HashMap<>();
         flightDetailsJsonNode.elements().forEachRemaining(
                 jsonNode -> {
                     try {
@@ -46,7 +48,10 @@ public class FlightDao {
     }
 
     public int getFlightIdFromFlightNumber(String flightNumber) {
-        final Map<String, FlightDetails> flightDetailsMap = getFlightDetailsMappedToFlightNumber();
+        if (CollectionUtils.isEmpty(flightDetailsMap)) {
+            flightDetailsMap = getFlightDetailsMappedToFlightNumber();
+        }
+
         if (flightDetailsMap.containsKey(flightNumber)) {
             return flightDetailsMap.get(flightNumber).getFlightId();
         }

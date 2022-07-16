@@ -24,6 +24,7 @@ public class AirportController {
     private final transient ControllerUtility controllerUtility;
     private final transient WeightService weightService;
 
+
     @Autowired
     public AirportController(
             final ControllerUtility controllerUtility,
@@ -49,7 +50,10 @@ public class AirportController {
                     .body(WeightResponse.builder().error(badRequestResponse).build());
         }
 
+        final WeightResponse weightResponse = weightService.getWeightResponse(flightNumber, date);
+        LOGGER.info("Returning Weight Details for FlightNumber={}, WeightDetails={}", flightNumber, weightResponse);
+
         return ResponseEntity.status(HttpStatus.OK)
-                .body(weightService.getWeightResponse(flightNumber, date));
+                .body(weightResponse);
     }
 }
