@@ -1,0 +1,334 @@
+{
+  "flightDetails": [
+    {
+      "flightId": 0,
+      "flightNumber": 7755,
+      "departureAirportIATACode": "YYT",
+      "arrivalAirportIATACode": "LEW",
+      "departureDate": "2018-09-27T04:30:41-06:-30"
+    },
+    {
+      "flightId": 1,
+      "flightNumber": 9957,
+      "departureAirportIATACode": "YYZ",
+      "arrivalAirportIATACode": "LEW",
+      "departureDate": "2017-09-05T08:49:17-06:-30"
+    },
+    {
+      "flightId": 2,
+      "flightNumber": 2327,
+      "departureAirportIATACode": "SEA",
+      "arrivalAirportIATACode": "KRK",
+      "departureDate": "2019-04-10T02:16:37-06:-30"
+    },
+    {
+      "flightId": 3,
+      "flightNumber": 9013,
+      "departureAirportIATACode": "LAX",
+      "arrivalAirportIATACode": "LEW",
+      "departureDate": "2018-10-28T11:06:53-06:-30"
+    },
+    {
+      "flightId": 4,
+      "flightNumber": 9198,
+      "departureAirportIATACode": "YYZ",
+      "arrivalAirportIATACode": "PPX",
+      "departureDate": "2014-03-30T09:41:14-06:-30"
+    }
+  ],
+  "weightDetails": [
+    {
+      "flightId": 0,
+      "baggage": [
+        {
+          "id": 0,
+          "weight": 409,
+          "weightUnit": "kg",
+          "pieces": 975
+        },
+        {
+          "id": 1,
+          "weight": 225,
+          "weightUnit": "kg",
+          "pieces": 186
+        },
+        {
+          "id": 2,
+          "weight": 352,
+          "weightUnit": "lb",
+          "pieces": 771
+        }
+      ],
+      "cargo": [
+        {
+          "id": 0,
+          "weight": 743,
+          "weightUnit": "lb",
+          "pieces": 320
+        },
+        {
+          "id": 1,
+          "weight": 472,
+          "weightUnit": "lb",
+          "pieces": 984
+        },
+        {
+          "id": 2,
+          "weight": 464,
+          "weightUnit": "kg",
+          "pieces": 89
+        },
+        {
+          "id": 3,
+          "weight": 478,
+          "weightUnit": "lb",
+          "pieces": 994
+        },
+        {
+          "id": 4,
+          "weight": 665,
+          "weightUnit": "lb",
+          "pieces": 3
+        }
+      ]
+    },
+    {
+      "flightId": 1,
+      "baggage": [
+        {
+          "id": 0,
+          "weight": 531,
+          "weightUnit": "lb",
+          "pieces": 254
+        },
+        {
+          "id": 1,
+          "weight": 902,
+          "weightUnit": "lb",
+          "pieces": 629
+        },
+        {
+          "id": 2,
+          "weight": 787,
+          "weightUnit": "lb",
+          "pieces": 271
+        },
+        {
+          "id": 3,
+          "weight": 926,
+          "weightUnit": "kg",
+          "pieces": 489
+        },
+        {
+          "id": 4,
+          "weight": 541,
+          "weightUnit": "kg",
+          "pieces": 421
+        }
+      ],
+      "cargo": [
+        {
+          "id": 0,
+          "weight": 930,
+          "weightUnit": "kg",
+          "pieces": 100
+        },
+        {
+          "id": 1,
+          "weight": 252,
+          "weightUnit": "lb",
+          "pieces": 964
+        },
+        {
+          "id": 2,
+          "weight": 466,
+          "weightUnit": "kg",
+          "pieces": 958
+        },
+        {
+          "id": 3,
+          "weight": 625,
+          "weightUnit": "kg",
+          "pieces": 377
+        }
+      ]
+    },
+    {
+      "flightId": 2,
+      "baggage": [
+        {
+          "id": 0,
+          "weight": 537,
+          "weightUnit": "kg",
+          "pieces": 650
+        },
+        {
+          "id": 1,
+          "weight": 771,
+          "weightUnit": "kg",
+          "pieces": 114
+        },
+        {
+          "id": 2,
+          "weight": 776,
+          "weightUnit": "lb",
+          "pieces": 38
+        },
+        {
+          "id": 3,
+          "weight": 16,
+          "weightUnit": "lb",
+          "pieces": 772
+        }
+      ],
+      "cargo": [
+        {
+          "id": 0,
+          "weight": 863,
+          "weightUnit": "lb",
+          "pieces": 440
+        },
+        {
+          "id": 1,
+          "weight": 529,
+          "weightUnit": "kg",
+          "pieces": 784
+        },
+        {
+          "id": 2,
+          "weight": 623,
+          "weightUnit": "kg",
+          "pieces": 819
+        }
+      ]
+    },
+    {
+      "flightId": 3,
+      "baggage": [
+        {
+          "id": 0,
+          "weight": 11,
+          "weightUnit": "kg",
+          "pieces": 928
+        },
+        {
+          "id": 1,
+          "weight": 887,
+          "weightUnit": "lb",
+          "pieces": 262
+        },
+        {
+          "id": 2,
+          "weight": 245,
+          "weightUnit": "lb",
+          "pieces": 449
+        },
+        {
+          "id": 3,
+          "weight": 606,
+          "weightUnit": "lb",
+          "pieces": 166
+        },
+        {
+          "id": 4,
+          "weight": 159,
+          "weightUnit": "kg",
+          "pieces": 245
+        },
+        {
+          "id": 5,
+          "weight": 329,
+          "weightUnit": "lb",
+          "pieces": 489
+        }
+      ],
+      "cargo": [
+        {
+          "id": 0,
+          "weight": 392,
+          "weightUnit": "kg",
+          "pieces": 169
+        },
+        {
+          "id": 1,
+          "weight": 973,
+          "weightUnit": "kg",
+          "pieces": 748
+        },
+        {
+          "id": 2,
+          "weight": 483,
+          "weightUnit": "lb",
+          "pieces": 102
+        },
+        {
+          "id": 3,
+          "weight": 13,
+          "weightUnit": "lb",
+          "pieces": 351
+        },
+        {
+          "id": 4,
+          "weight": 620,
+          "weightUnit": "lb",
+          "pieces": 744
+        }
+      ]
+    },
+    {
+      "flightId": 4,
+      "baggage": [
+        {
+          "id": 0,
+          "weight": 372,
+          "weightUnit": "kg",
+          "pieces": 314
+        },
+        {
+          "id": 1,
+          "weight": 686,
+          "weightUnit": "kg",
+          "pieces": 891
+        },
+        {
+          "id": 2,
+          "weight": 225,
+          "weightUnit": "kg",
+          "pieces": 943
+        },
+        {
+          "id": 3,
+          "weight": 803,
+          "weightUnit": "kg",
+          "pieces": 302
+        },
+        {
+          "id": 4,
+          "weight": 926,
+          "weightUnit": "lb",
+          "pieces": 937
+        }
+      ],
+      "cargo": [
+        {
+          "id": 0,
+          "weight": 438,
+          "weightUnit": "lb",
+          "pieces": 708
+        },
+        {
+          "id": 1,
+          "weight": 593,
+          "weightUnit": "lb",
+          "pieces": 453
+        },
+        {
+          "id": 2,
+          "weight": 106,
+          "weightUnit": "lb",
+          "pieces": 230
+        }
+      ]
+    }
+  ]
+}
