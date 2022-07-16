@@ -49,6 +49,7 @@ public class AirportController {
                     .body(WeightResponse.builder().error(badRequestResponse).build());
         }
 
-        return ResponseEntity.status(HttpStatus.OK).body(weightService.getWeightResponse());
+        return ResponseEntity.status(HttpStatus.OK)
+                .body(weightService.getWeightResponse(flightNumber, date));
     }
 }
