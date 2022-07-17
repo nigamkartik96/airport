@@ -34,13 +34,6 @@
       "departureAirportIATACode": "YYZ",
       "arrivalAirportIATACode": "PPX",
       "departureDate": "2014-03-30T09:41:14-06:-30"
-    },
-    {
-      "flightId": 5,
-      "flightNumber": 9198,
-      "departureAirportIATACode": "YYXZ",
-      "arrivalAirportIATACode": "PPX",
-      "departureDate": "2014-03-30T09:41:14-06:-30"
     }
   ],
   "weightDetails": [
