@@ -1,0 +1,37 @@
+{
+  "2327": {
+    "flightId": 2,
+    "flightNumber": "2327",
+    "departureAirportIATACode": "SEA",
+    "arrivalAirportIATACode": "KRK",
+    "departureDate": "2019-04-10T02:16:37-06:-30"
+  },
+  "9013": {
+    "flightId": 3,
+    "flightNumber": "9013",
+    "departureAirportIATACode": "LAX",
+    "arrivalAirportIATACode": "LEW",
+    "departureDate": "2018-10-28T11:06:53-06:-30"
+  },
+  "9957": {
+    "flightId": 1,
+    "flightNumber": "9957",
+    "departureAirportIATACode": "YYZ",
+    "arrivalAirportIATACode": "LEW",
+    "departureDate": "2017-09-05T08:49:17-06:-30"
+  },
+  "7755": {
+    "flightId": 0,
+    "flightNumber": "7755",
+    "departureAirportIATACode": "YYT",
+    "arrivalAirportIATACode": "LEW",
+    "departureDate": "2018-09-27T04:30:41-06:-30"
+  },
+  "9198": {
+    "flightId": 4,
+    "flightNumber": "9198",
+    "departureAirportIATACode": "YYZ",
+    "arrivalAirportIATACode": "PPX",
+    "departureDate": "2014-03-30T09:41:14-06:-30"
+  }
+}
