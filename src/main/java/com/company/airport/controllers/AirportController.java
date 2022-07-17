@@ -89,7 +89,8 @@ public class AirportController {
         }
 
         final AirportResponse airportResponse = airportService.getAirportResponseDetails(iATAAirportCode, date);
-        LOGGER.info("method=getAirportDetailsAPI; Returning the AirportResponse={}", airportResponse);
+        LOGGER.info("method=getAirportDetailsAPI; Returning the AirportResponse={} for IATAAirportCode={}",
+                airportResponse, iATAAirportCode);
 
         return ResponseEntity.status(HttpStatus.OK)
                 .body(airportResponse);
