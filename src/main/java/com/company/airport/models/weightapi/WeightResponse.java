@@ -8,8 +8,8 @@ import lombok.Data;
 @AllArgsConstructor
 @Builder
 public class WeightResponse {
-    public Double cargoWeight;
-    public Double baggageWeight;
-    public Double totalWeight;
-    public String error;
+    private Double cargoWeight;
+    private Double baggageWeight;
+    private Double totalWeight;
+    private String error;
 }
