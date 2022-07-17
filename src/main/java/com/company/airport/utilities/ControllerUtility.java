@@ -10,18 +10,29 @@ import java.util.Date;
 
 @Component
 public class ControllerUtility {
-    public String weightAPIRequestValidation(String flightNumber, String date) {
+    public String weightAPIValidations(final String flightNumber, final String date) {
         if (StringUtils.isEmpty(flightNumber) || StringUtils.isEmpty(date)) {
             return "Flight Number (flightNumber) and Date (date) cannot be empty";
         }
 
+        return checkValidityOfDate(date);
+    }
+
+    public String airportDetailsAPIAPIValidations(final String iATAAirportCode, final String date) {
+        if (StringUtils.isEmpty(iATAAirportCode) || StringUtils.isEmpty(date)) {
+            return "IATA Airport Code (iATAAirportCode) and Date (date) cannot be empty";
+        }
+
+        return checkValidityOfDate(date);
+    }
+
+    private String checkValidityOfDate(final String date) {
         try {
             final SimpleDateFormat formatter = new SimpleDateFormat(UtilityConstants.DATE_FORMAT);
-            final Date flightDate = formatter.parse(date);
+            formatter.parse(date);
+            return null;
         } catch (ParseException e) {
             return "Enter Date (date) in UTC format (YYYY-MM-ddThh:mm:ssZ)";
         }
-
-        return null;
     }
 }
