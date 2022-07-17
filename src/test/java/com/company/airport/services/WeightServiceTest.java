@@ -2,7 +2,6 @@ package com.company.airport.services;
 
 import com.company.airport.dao.FlightDao;
 import com.company.airport.dao.WeightDAO;
-import com.company.airport.models.flightapi.FlightDetails;
 import com.company.airport.models.weightapi.FlightWeight;
 import com.company.airport.models.weightapi.WeightResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
