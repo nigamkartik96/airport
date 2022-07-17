@@ -1,5 +1,8 @@
 # Airport Service
 
+## Data Set
+
+[Airport Data Set](src/main/resources/airport_json.json)
 
 ## First API, Weight API
 
@@ -59,7 +62,9 @@ flightNumber=7755&date=2020-09-01T02:02:02Z'
 ## Second API, Airport Details API
 
 ### Problem Statement
+
 For requested IATA Airport Code and date will respond with following :
+
 - Number of flights departing from this airport,
 - Number of flights arriving to this airport,
 - Total number (pieces) of baggage arriving to this airport,
@@ -110,7 +115,9 @@ iATAAirportCode=YYZ&date=2020-09-01T02:02:02Z'
     "error": "Enter Date (date) in UTC format (YYYY-MM-ddThh:mm:ssZ)"
 }
 ~~~
+
 4. Flight Details not found - `HTTP Status Code: 200`
+
 ~~~
 {
     "numberOfFlightDeparting": -1,
